@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">UI自动化测试</string>
+    <string name="tradN5rf">N5/N86非接交易</string>
+    <string name="tradN6rf">N6非接交易</string>
+    <string name="tradN5sm">N5/N86扫码交易</string>
+    <string name="tradN6sm">N6扫码交易</string>
+    <string name="tradss">扫码服务</string>
+    <string name="SDfill">SD卡压力测试</string>
+    <string name="tradreboot">重启签到交易</string>
+    <string name="closeservice">重启机器</string>
+    <string name="isreboot">重启机器</string>
+    <string name="cancelreboot">取消重启</string>
+    <string name="unreboot">不重启</string>
+    <string name="SDcardtest">SD卡压力测试</string>
+    <string name="instiallapp">预安装APP</string>
+    <string name="DDItest">DDI接口测试</string>
+    <string name="UItest">UI自动化测试</string>
+    <string name="testtool">项目测试工具</string>
+    <string name="daiding">后续有需求添加即可</string>
+    <string name="UItestAPP">安装UI测试APP</string>
+    <string name="scanservicrAPP">安装扫码服务APP</string>
+    <string name="XGDstandAPP">安装XGD标准应用</string>
+    <string name="testpinblock">测试PINblock</string>
+    <string name="testPIN">POE测试</string>
+    <string name="testcamera">相机压力测试</string>
+    <string name="N5dditest">N5ddi接口测试</string>
+    <string name="N6dditest">N6ddi接口测试</string>
+    <string name="N5Sdditest">扫码压力测试</string>
+    <string name="reboottest">循环重启获取信息</string>
+    <string name="installapp">预安装APP</string>
+    <string name="P100RF">P100RF测试</string>
+    <string name="P100scan">P100扫码测试</string>
+    <string name="ccbRFtrade">建行RF自动交易</string>
+    <string name="ccbysqtrade">建行预授权交易</string>
+
+
+
+</resources>

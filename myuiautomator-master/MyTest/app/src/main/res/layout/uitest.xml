@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zhepan.com.uitest.MainActivity">
+
+    <CheckBox
+        android:id="@+id/unrebootcheckBox"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@id/closerservice"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <Button
+        android:id="@+id/BTss"
+        android:layout_width="134dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent2"
+        android:onClick="runMyUiautomator"
+        android:text="@string/tradss"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <Button
+        android:id="@+id/closerservice"
+        android:layout_width="400dp"
+        android:layout_height="38dp"
+        android:background="#C10D25"
+        android:onClick="runMyUiautomator"
+        android:text="@string/closeservice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911" />
+
+    <Button
+        android:id="@+id/Btreboot"
+        android:layout_width="134dp"
+        android:layout_height="38dp"
+        android:background="@color/colorAccent2"
+        android:onClick="runMyUiautomator"
+        android:text="@string/tradreboot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
+
+    <Button
+        android:id="@+id/BtN6rf"
+        android:layout_width="134dp"
+        android:layout_height="38dp"
+        android:background="@color/colorAccent2"
+        android:onClick="runMyUiautomator"
+        android:text="@string/tradN6rf"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <Button
+        android:id="@+id/BTNS5RF"
+        android:layout_width="134dp"
+        android:layout_height="38dp"
+        android:background="@color/colorAccent2"
+        android:onClick="runMyUiautomator"
+        android:text="@string/tradN5rf"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <Button
+        android:id="@+id/BtN5sm"
+        android:layout_width="134dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent2"
+        android:onClick="runMyUiautomator"
+        android:text="@string/tradN5sm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <Button
+        android:id="@+id/BtN6sm"
+        android:layout_width="134dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent2"
+        android:onClick="runMyUiautomator"
+        android:text="@string/tradN6sm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <CheckBox
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/CKisreboot"
+        android:text="@string/isreboot"
+        app:layout_constraintBottom_toTopOf="@id/closerservice"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

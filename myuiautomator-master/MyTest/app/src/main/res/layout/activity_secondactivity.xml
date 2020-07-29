@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zhepan.com.uitest.firstactivity"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:id="@+id/UItest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorAccent2"
+            android:layout_weight="1"
+            android:text="相机压力测试">
+        </Button>
+        <Button
+            android:id="@+id/btuitest1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent2"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="进入UI测试">
+        </Button>
+
+
+    </LinearLayout>
+
+  <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+android:layout_marginTop="80dp"
+    >
+
+<Button
+    android:id="@+id/BP990"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:background="@color/colorAccent2"
+    android:layout_weight="1"
+    android:text="BP990">
+
+</Button>
+
+
+<Button
+    android:id="@+id/intth"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent2"
+    android:layout_marginLeft="20dp"
+    android:layout_weight="1"
+    android:text="N5/N5S/N86">
+
+</Button>
+
+
+  </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="140dp"
+        >
+        <Button
+            android:id="@+id/stafront"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorAccent2"
+            android:layout_weight="1"
+            android:text="P100">
+        </Button>
+        <Button
+            android:id="@+id/staback"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent2"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="N6"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        >
+        <Button
+            android:id="@+id/P200"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorAccent2"
+            android:layout_weight="1"
+            android:text="P200">
+        </Button>
+
+        <Button
+            android:id="@+id/N5Sccbzb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent2"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="N5S建行招标"></Button>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zhepan.com.mytest"
+    android:sharedUserId="android.uid.system"
+    >
+<!--    android:sharedUserId="android.uid.system"-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/xgd"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:persistent="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="zhepan.com.uitest.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN1" />
+                <category android:name="android.intent.category.LAUNCHER1" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="zhepan.com.uitest.firstactivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="zhepan.com.uitest.BootBCReveiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+        <service android:name="zhepan.com.uitest.myintentservice">
+            <intent-filter >
+                <action android:name="com.test.intentservice"/>
+            </intent-filter>
+        </service>
+        <activity
+                  android:name="zhepan.com.uitest.SDtestActivity"
+                   android:label="@string/SDcardtest">
+                    <intent-filter>
+                        <action android:name="android.intent.action.sdtest" />
+                        <!--activity注册需要这个-->
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+         </activity>
+
+        <activity
+                  android:name="zhepan.com.uitest.CCBActivity"
+
+                   android:label="@string/app_name" >
+                    <intent-filter>
+                        <action android:name="android.intent.action.ccbtest" />
+                        <!--activity注册需要这个-->
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+         </activity>
+        <activity
+                  android:name="zhepan.com.uitest.bp990activity"
+
+                   android:label="@string/app_name" >
+                    <intent-filter>
+                        <action android:name="android.intent.action.bp990" />
+                        <!--activity注册需要这个-->
+                        <category android:name="android.intent.category.bp990" />
+                    </intent-filter>
+         </activity>
+
+        <activity
+                  android:name="zhepan.com.uitest.installappactivity"
+
+                   android:label="@string/installapp" >
+                    <intent-filter>
+                        <action android:name="android.intent.action.installapp" />
+                        <!--activity注册需要这个-->
+                        <category android:name="android.intent.category.installapp" />
+                    </intent-filter>
+         </activity>
+
+    </application>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
